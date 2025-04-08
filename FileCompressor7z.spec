@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['compressapppy\\file_compressor_7z.py'],
+    ['file_compressor_7z.py'],
     pathex=[],
     binaries=[],
-    datas=[('requirements.txt', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -28,7 +28,7 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=False,
+    console=True,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
